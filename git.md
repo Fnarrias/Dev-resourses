@@ -26,3 +26,14 @@ git branch -M main
 ```
 git push -u origin main
 ```
+#Casos especiales -Comandos Básicos
+- [Push a una rama específica (remote sería origin en este caso)]
+```
+git push <remote> <branch>
+```
+- [Pull una rama específica (remote sería origin en este caso)]
+```
+git pull <remote> <branch>
+```
+
+
