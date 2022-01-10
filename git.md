@@ -31,6 +31,11 @@ git push -u origin main
 ```
 git push <remote> <branch>
 ```
+- [En caso del primer push, si tiene conflictos puedes forzar el comando]
+```
+git push --force <remote> <branch>
+```
+
 - [Pull una rama específica (remote sería origin en este caso)]
 ```
 git pull <remote> <branch>
