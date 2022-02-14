@@ -46,3 +46,8 @@ npm i --save @nestjs/config
 ```
 npm install --save @nestjs/swagger swagger-ui-express
 ```
+
+#Validaciones
+```
+npm install class-validator class-transformer
+```

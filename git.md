@@ -15,8 +15,7 @@ git add .
 git commit -m "<texto descripción del commit>" 
 ```
 - [ Añadir la url del repo a origin]
-```
-git remote add origin <URL de tu proyecto> 
+``` <URL de tu proyecto> 
 ```
 - [ Setear la rama a main]
 ```
@@ -40,5 +39,9 @@ git push --force <remote> <branch>
 ```
 git pull <remote> <branch>
 ```
-
+- [si el pull no actualiza los archivos]
+```
+ git fetch --all
+ git reset --hard origin/master
+```
 
