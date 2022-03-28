@@ -15,7 +15,8 @@ git add .
 git commit -m "<texto descripción del commit>" 
 ```
 - [ Añadir la url del repo a origin]
-``` <URL de tu proyecto> 
+``` 
+git remote add <URL de tu proyecto> 
 ```
 - [ Setear la rama a main]
 ```
