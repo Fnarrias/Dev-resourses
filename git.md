@@ -18,6 +18,10 @@ git commit -m "<texto descripción del commit>"
 ``` 
 git remote add <URL de tu proyecto> 
 ```
+- [ Cambiar la url de origin]
+``` 
+git remote set-url origin new.git.url/here 
+```
 - [ Setear la rama a main]
 ```
 git branch -M main 
